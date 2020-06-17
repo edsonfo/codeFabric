@@ -1,0 +1,136 @@
+.title{
+    
+    margin-top: 90px;
+    padding: 0;
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    
+}
+
+body {
+     margin: 0;
+     padding: 0;
+     background: url("img/9.jpg") no-repeat center top;
+     background-size: cover;
+     font-family: sans-serif;
+     height: 100vh;
+   }
+
+.login-box {
+    
+     width: 320px;
+     height: 420px;
+     background-color: white;
+     opacity: 0.9;
+     color: black; 
+     top: 50%;
+     left: 50%;
+     position: absolute;
+     transform: translate(-50%,-50%);
+     box-sizing: border-box;
+     padding: 20px 30px; 
+}   
+
+.login-box h2 {    
+     margin: 0;
+     padding: 0 0 20px;
+     text-align: left;
+     font-size: 22px;
+}
+
+.login-box label{
+    margin: 0;
+    padding: 0 0 5px;
+    font-weight: bold;
+    display: block;
+    font-size: 12px;
+}
+
+.login-box input {
+     width: 100%;
+}
+
+.login-box input[type="text"],
+.login-box input[type="password"] {
+    display: block;
+    padding: 10px;
+    width: 90%;
+    margin: 5px 10px 10px 0px;
+    font-size: 10px;         
+}
+
+.login-box input[type="submit"] {
+     border: none;
+     outline: none;
+     height: 35px;
+     background: black;
+     color:white;
+     font-weight: bold;
+     font-size: 11px;
+     border-radius: 4px;
+     width: 35%;
+     margin-top: 10px;
+     margin-bottom: 20px;
+}
+
+.login-box .forgot {
+     color: teal;
+     text-decoration: none;
+     float:right;
+     margin-top: 20px;
+     margin-bottom: 20px;
+     text-align:center;
+     font-weight:bold;
+     font-size: 12px;
+}
+
+.login-box .subTitle {
+     text-align:center;
+     font-weight:bold;
+}
+
+.login-box .buttontwo {
+     display:inline-block;
+     margin-left: 10px;
+}
+
+.login-box .button {
+     background-color:#604ECD; 
+     border: 1px solid #604ECD;
+     color: white;
+     padding: 5px 12px;
+     text-align: center;
+     text-decoration: none;
+     font-size: 15px;
+     cursor: pointer;
+     float: left;
+     margin-right: 15px;
+     border-radius: 4px;
+}
+
+.login-box .textt{
+     float: left;
+     margin-top: 5px
+}
+
+.login-box .buttontwi {
+     background-color:#008CBA;
+     border: 1px solid #008CBA;
+     color: white;
+     padding: 5px 12px;
+     text-align: center;
+     text-decoration: none;
+     font-size: 15px;
+     cursor: pointer;
+     float:right;
+     margin-left: 15px;
+     border-radius: 4px;      
+}
+
+.footers {
+     margin-top: 50px;
+     text-align: center;
+     color:white;
+     font-size: 10px;    
+}
